@@ -3,12 +3,8 @@ import React from 'react';
 export function Notifications() {
     return(
         <div className="notification">
-            <div className="notifications-count">
-                <h2>Notifications 3</h2>
-                <p>Mark all as read</p>
-            </div>
             <div className="notifications-content">
-               <p className="text-3xl font-bold underline">
+               <p>
                     Mark Webber reacted to your recent post My first tournament today! 
                     <br />
                     1m ago
