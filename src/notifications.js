@@ -8,7 +8,7 @@ export function Notifications() {
                 <p>Mark all as read</p>
             </div>
             <div className="notifications-content">
-               <p>
+               <p className="text-3xl font-bold underline">
                     Mark Webber reacted to your recent post My first tournament today! 
                     <br />
                     1m ago
