@@ -1,0 +1,17 @@
+body {
+    background: hsl(180, 2%, 92%);
+}
+
+.app {
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+p {
+    background: hsl(211, 68%, 94%);
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px 30px;
+}

@@ -5,7 +5,7 @@ import Notifications from './modules/notifications';
 
 function App() {
   return (
-    <div className="App container mx-auto my-auto px-4 py-4 text-left">
+    <div className="app container mx-auto my-auto px-4 py-4 text-left">
       <Header />
       <Notifications />
     </div>
