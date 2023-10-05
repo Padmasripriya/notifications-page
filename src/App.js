@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './font.css';
 import Header from './modules/header';
 import Notifications from './modules/notifications';
 

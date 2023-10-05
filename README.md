@@ -71,3 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Documentation on installing the Tailwind CSS:
 https://tailwindcss.com/docs/guides/create-react-app
+
+---
+
+My learnings:
+To add images to the react site. There are two ways to do that: require and import
+Here is the link: https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
+
+To add fonts to the styles:
+Add font.css and add the required import
+Include the importy also in index.css
+use font.css file in App.js file
