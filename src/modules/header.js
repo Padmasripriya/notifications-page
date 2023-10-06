@@ -2,8 +2,8 @@ import React from 'react-dom';
 
 export function Header() {
     return(
-        <div className="notifications-count flex">
-                <p className="font-bold text-xl">Notifications 3</p>
+        <div className="notifications-count flex gap-5 justify-between">
+                <p className="font-bold text-xl">Notifications <span class="count">3</span></p>
                 <p>Mark all as read</p>
             </div>
     );

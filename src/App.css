@@ -4,13 +4,17 @@
     --font-family: 'Poppins';
 }
 
-body, p {
+body, p, span {
     font-family: var(--font-family);
     font-size: 16px;
 }
   
 body {
     background: hsl(180, 2%, 92%);
+}
+
+img {
+    border-radius: 50px;
 }
 
 .app {
@@ -29,4 +33,11 @@ p {
 
 .notifications-count p {
     background: none;
+}
+
+.notifications-count .count {
+    background-color: hsl(219, 85%, 26%);
+    color: #FFFFFF;
+    padding: 2px 10px;
+    border-radius: 5px;
 }
