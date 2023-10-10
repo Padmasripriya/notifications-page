@@ -34,6 +34,7 @@ export function Notifications() {
                          <strong className="text-black">Rizky Hasanuddin</strong> sent you a private message
                          <br />
                          5 days ago
+                         <br/>
                     </span>
                </p>
                <p>
