@@ -7,7 +7,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-mark-webber.jpg")} className="" alt="image of mark webber"/>
                     <span className="ml-5">
-                         Mark Webber reacted to your recent post My first tournament today!
+                         <strong className="text-black">Mark Webber</strong> reacted to your recent post <strong className="hover:text-blue">My first tournament today!</strong>
                          <br />
                          1m ago
                     </span>
@@ -15,7 +15,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-angela-gray.jpg")} className="w-50px h-50px" alt="image of angela gray"/>
                     <span className="ml-5">
-                         Angela Gray followed you
+                         <strong className="text-black">Angela Gray</strong> followed you
                          <br />
                          5m ago
                     </span>
@@ -23,7 +23,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-jacob-thompson.jpg")} className="" alt="image of jacob thompson"/>
                     <span className="ml-5">
-                         Jacob Thompson has joined your group Chess Club
+                         <strong className="text-black">Jacob Thompson</strong> has joined your group <strong className="hover:text-blue">Chess Club</strong>
                          <br />
                          1 day ago
                     </span>
@@ -31,7 +31,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-rizky-hasanuddin.jpg")} className="image of rizky hansanuddin"/>
                     <span className="ml-5">
-                         Rizky Hasanuddin sent you a private message
+                         <strong className="text-black">Rizky Hasanuddin</strong> sent you a private message
                          <br />
                          5 days ago
                     </span>
@@ -44,7 +44,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-kimberly-smith.jpg")} className="" alt="image of kimberly smith"/>
                     <span className="ml-5">
-                         Kimberly Smith commented on your picture
+                         <strong className="text-black">Kimberly Smith</strong> commented on your picture
                          <br />
                          1 week ago
                     </span>
@@ -52,7 +52,7 @@ export function Notifications() {
                <p className="flex">
                     <img src={require("../images/avatar-nathan-peterson.jpg")} className="" alt="image of nathan peterson"/>
                     <span className="ml-5">
-                         Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
+                         <strong className="text-black">Nathan Peterson</strong> reacted to your recent post <strong className="hover:text-blue">5 end-game strategies to increase your win rate</strong>
                          <br />
                          2 weeks ago
                     </span>
@@ -60,7 +60,7 @@ export function Notifications() {
                <p className="flex">
                    <img src={require("../images/avatar-anna-kim.jpg")} className="" alt="image of anna kim"/>
                     <span className="ml-5">
-                         Anna Kim left the group Chess Club
+                         <strong className="text-black">Anna Kim</strong> left the group <strong className="hover:text-blue">Chess Club</strong>
                          <br />
                          2 weeks ago
                     </span>
