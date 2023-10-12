@@ -23,7 +23,7 @@ img {
 .app {
     background: hsl(0, 0%, 100%);
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 50px auto;
     cursor: pointer;
 }
 
@@ -35,6 +35,11 @@ p {
 }
 
 p:nth-child(5) {
+    border: 1px solid hsl(210, 60%, 98%);
+    background: none;
+}
+
+p:nth-child(5):hover {
     background: hsl(211, 68%, 94%);
 }
 
