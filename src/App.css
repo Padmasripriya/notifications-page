@@ -75,6 +75,12 @@ p:nth-child(4), p:nth-child(6), p:nth-child(7), p:nth-child(8) {
 }
 
 .chess {
-    margin-left: 39rem;
+    margin-left: 5rem;
+}
+
+@media(min-width: 768px) {
+    .app {
+        width: 70%;
+    }
 }
 
