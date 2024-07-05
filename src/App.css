@@ -11,7 +11,7 @@ body, p, span {
 }
   
 body {
-   /* background: hsl(180, 2%, 92%); */
+    background: hsl(180, 2%, 92%);
 }
 
 img {
